@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+.block {
+  height: 230px;
+  border-radius: 5px;
+  background-color: lightgray;
+  margin: 20px 0;
+  padding: 20px;
+  position: relative;
+}
+.center-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn1 {
+  background-color: yellow;
+  border-radius: 5px;
+  height: 35px;
+  border: 1px solid yellow;
+  width: 60px;
+  color: brown;
+}
+.btn2 {
+  background-color: lightskyblue;
+  border-radius: 5px;
+  height: 35px;
+  border: 1px solid lightskyblue;
+  width: 60px;
+  color: brown;
+  margin-left: 5px;
+  color: white;
+}
+.edit-block,
+.style-block {
+  display: none;
+}
+.btn-edit:hover {
+  opacity: 0.5;
+}
+.btn-style:hover {
+  opacity: 0.5;
+}
+.btn-bg-color:hover {
+  opacity: 0.5;
+}
+.btn-text-color:hover {
+  opacity: 0.5;
+}
+.input-li,
+.inpTD,
+.inpTR,
+.wTD,
+.hTD {
+  margin-left: 50px;
+  border-radius: 5px;
+  width: 855px;
+  color: gray;
+  height: 30px;
+  outline: 1px solid white;
+  border: 1px solid white;
+}
+.wBorder {
+  border-radius: 5px;
+  width: 100px;
+  color: gray;
+  height: 30px;
+  outline: 1px solid white;
+  border: 1px solid white;
+}
+.typeOfBorder {
+  border-radius: 5px;
+  width: 100px;
+  color: gray;
+  height: 30px;
+  outline: 1px solid white;
+  border: 1px solid white;
+}
+.colorOfBorder {
+  border-radius: 5px;
+  width: 100px;
+  color: gray;
+  height: 30px;
+  outline: 1px solid white;
+  border: 1px solid white;
+}
+.btn-create-table {
+  background-color: green;
+  color: white;
+  width: 90px;
+  height: 35px;
+  border: 1px solid green;
+  border-radius: 5px;
+}
+.btn-create-table:hover {
+  opacity: 0.5;
+}
+.colorOfBorder:hover {
+  box-shadow: 1px 1px 3px 3px rgb(107, 116, 252);
+}
+.typeOfBorder:hover {
+  box-shadow: 1px 1px 3px 3px rgb(107, 116, 252);
+}
+.input-li:hover {
+  box-shadow: 1px 1px 3px 3px rgb(107, 116, 252);
+}
+.inpTD:hover {
+  box-shadow: 1px 1px 3px 3px rgb(107, 116, 252);
+}
+.inpTR:hover {
+  box-shadow: 1px 1px 3px 3px rgb(107, 116, 252);
+}
+.wTD:hover {
+  box-shadow: 1px 1px 3px 3px rgb(107, 116, 252);
+}
+.hTD:hover {
+  box-shadow: 1px 1px 3px 3px rgb(107, 116, 252);
+}
+.wBorder:hover {
+  box-shadow: 1px 1px 3px 3px rgb(107, 116, 252);
+}
+.span-type-border {
+  margin-left: 80px;
+  margin-right: 70px;
+}
+.span-color-border {
+  margin-left: 68px;
+  margin-right: 70px;
+}
+.span-w-border {
+  margin-right: 40px;
+}
+.select-type {
+  margin-left: 15px;
+  border-radius: 5px;
+  width: 855px;
+  color: gray;
+  height: 30px;
+  outline: 1px solid white;
+  border: 1px solid white;
+}
+.select-type:hover {
+  box-shadow: 1px 1px 3px 3px rgb(107, 116, 252);
+}
+.btn-create-list {
+  background-color: green;
+  color: white;
+  width: 90px;
+  height: 35px;
+  border: 1px solid green;
+  border-radius: 5px;
+}
+.btn-create-list:hover {
+  opacity: 0.5;
+}
+.btn-add:hover {
+  opacity: 0.5;
+}
+.btn-save:hover {
+  opacity: 0.5;
+}
+.edit-area {
+  width: 100%;
+  height: 100px;
+  resize: none;
+}
+.colors,
+.colorsBg {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 150px;
+  height: 150px;
+  outline: 1px solid black;
+  display: none;
+  flex-wrap: wrap;
+}
+.color-box,
+.color-boxBg {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+}
+.d-flex {
+  display: flex;
+}
+.shadow {
+  box-shadow: 1px 1px 3px 3px rgb(161, 144, 144);
+}
+.shadowEdit {
+  box-shadow: 1px 1px 3px 3px rgb(255, 242, 0);
+}
+.shadowStyle {
+  box-shadow: 1px 1px 3px 3px rgb(107, 116, 252);
+}
+.fF:hover {
+  box-shadow: 1px 1px 3px 3px rgb(107, 116, 252);
+}
+.fF {
+  border: 1px solid white;
+  outline: 1px solid white;
+}
+.h2-style {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.fF {
+  width: 290px;
+  height: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(75, 68, 68);
+}
+.btn-text-color,
+.btn-bg-color {
+  color: white;
+  background-color: gray;
+  border-radius: 5px;
+  border: 1px solid gray;
+  width: 110px;
+  height: 30px;
+}
+.btn-add {
+  background-color: red;
+  color: white;
+  width: 50px;
+  height: 30px;
+  border: 1px solid red;
+  border-radius: 5px;
+}
+.btn-save {
+  background-color: green;
+  color: white;
+  width: 50px;
+  height: 30px;
+  border: 1px solid green;
+  border-radius: 5px;
+}
+#blockForTable {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+.wTD {
+  margin-left: 33px;
+}
+.hTD {
+  margin-left: 30px;
+}
+.btn-bg-color {
+  width: 120px;
+}
+.second {
+  display: none;
+}
+.create-list {
+  display: none;
+}
+.bold {
+  font-weight: bold;
+}
+.cursive {
+  font-style: italic;
+}
+.hh {
+  height: 400px;
+}
+.invisible {
+  display: none;
+}
+
+.show {
+  display: block;
+}
